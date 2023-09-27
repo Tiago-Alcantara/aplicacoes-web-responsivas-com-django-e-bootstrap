@@ -8,7 +8,7 @@
     <h1>{{ post.titulo }}</h1>
     <h3>{{post.titulo}} - {{post.autor}}</h3>
     <p>
-        {{post.conteudo}}
+        {{post.conteudo|safe}}
     </p>
 </body>
 </html>
